@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "GID": 336, "NAME_0": "Vatican City", "GID_0": "VAT", "NAME_1": "Vatican City", "GID_1": "VAT" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 12.455550193786678, 41.907550811767578 ], [ 12.457938194274902, 41.901340484619254 ], [ 12.445608139038143, 41.901988983154297 ], [ 12.45038986206049, 41.906570434570426 ], [ 12.455550193786678, 41.907550811767578 ] ] ] } }
+]
+}
