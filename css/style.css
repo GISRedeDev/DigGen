@@ -1,0 +1,104 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html, body, #map {
+    height: 100%;
+    font: 10pt "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+/* ======================================== */
+/* Sidebar Control  Start */
+
+.sidebar {
+    width: 280px;
+    height: 600px;
+}
+
+.sidebar-content
+{
+    opacity: 0.9;
+    filter: alpha(opacity=10);
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .sidebar {
+        width: 280px;
+        max-width: 280px } }
+@media (min-width: 992px) and (max-width: 1199px) {
+    .sidebar {
+        width: 280px;
+        max-width: 280px; } }
+@media (min-width: 1200px) {
+    .sidebar {
+        width: 280px;
+        max-width: 280px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .sidebar-pane {
+        width: 236px;
+        max-width: 236px; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+    .sidebar-pane {
+        width: 236px;
+        max-width: 236px; } }
+@media (min-width: 1200px) {
+    .sidebar-pane{
+        width: 236px !important;
+        max-width: 236px; } }
+
+/* Sidebar Control  End */
+
+/* ======================================== */
+
+/* Select2  Control Start */
+.select2-dropdown {
+    z-index: 9001;
+}
+.separator {
+    margin-top:8px;
+    border-top:1px solid #666;
+    padding:0;
+}
+
+/* Select2  Control End */
+
+/* ======================================== */
+
+/* leaflet-control-plot_xy  Control Start */
+
+.leaflet-control-plot_xy
+{
+    z-index: 0 !important;
+    width: 280px;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 3px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.65);
+    cursor: auto;
+    background-color: #FFFFFF;
+    opacity: .9;
+    filter: alpha(opacity=10);
+}
+
+.leaflet-control-plot_xy:hover
+{
+    /* background-color: #F4F4F4; */
+}
+
+/* leaflet-control-plot_xy  Control End */
+
+
+#plot_xy_span_close{
+    cursor:pointer;
+    position:absolute;
+    top:0;
+    right:0;
+    height:20px;
+    margin-right: 2px; 
+    padding: 3px;
+}
